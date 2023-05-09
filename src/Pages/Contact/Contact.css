@@ -1,0 +1,125 @@
+.contact_container{
+    margin: 2rem 15rem;
+    border: 2px solid var(--yellow);
+}
+.container_form{
+    margin: 6rem 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.form_name label{
+    color: var(--blue);
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding-right: 5rem;
+}
+.form_name input{
+    border: 1px solid var(--blue);
+    outline: none;
+    width: 400px;
+    padding: 1rem 2rem;
+}
+.form_email{
+    margin: 1rem 0;
+}
+.form_email label{
+    color: var(--blue);
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding-right: 5.3rem;
+}
+.form_email input{
+    border: 1px solid var(--blue);
+    outline: none;
+    width: 400px;
+    padding: 1rem 2rem;
+}
+.form_subject label{
+    color: var(--blue);
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding-right: 3.9rem;
+}
+.form_subject input{
+    border: 1px solid var(--blue);
+    outline: none;
+    width: 400px;
+    padding: 1rem 2rem;
+}
+.form_textarea{
+    margin: 1rem 0;
+}
+.form_textarea label{
+    color: var(--blue);
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding-right: 3rem;
+}
+.form_textarea input{
+    border: 1px solid var(--blue);
+    outline: none;
+    width: 400px;
+    padding: 1rem 2rem  5rem 2rem;
+}
+.btn_form{
+    background-color: var(--blue);
+    color: var(--white);
+    border: none;
+    padding: 1rem 3rem;
+    margin-bottom: 1rem;
+    margin-left: 7.8rem;
+    transition: 1s ease-in-out;
+    font-weight: 700;
+}
+.btn_form:hover{
+    color: var(--blue);
+    background-color: transparent;
+}
+
+@media screen and (max-width: 1024px){
+    .contact_container{
+        margin: 2rem 4rem;
+    }
+    
+}
+@media screen and (max-width: 576px){
+
+    .contact_container{
+        margin: 2rem 1rem;
+    }
+    .form_name,.form_email,.form_subject,.form_textarea {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .form_name label,.form_email label,.form_subject label,.form_textarea label{
+        font-weight: normal;
+        padding-right: 0;
+        padding-bottom: 1rem;
+    }
+    .form_name input,.form_email input,.form_subject input,.form_textarea input{
+        width: 280px;
+        padding: 1rem;
+    }
+    .btn_form{
+       margin-bottom: 2rem;
+       margin-left: 0;
+    }
+    .btn_div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .container_form{
+        margin: 2rem 0;
+    }
+}
+@media screen and (max-width: 280px){
+    .form_name input,.form_email input,.form_subject input,.form_textarea input{
+        width: 200px;
+        padding: 1rem;
+    }
+}

@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC:wght@700&display=swap');
+.typical{
+    margin: 0 6rem;
+    margin-top: 5rem;
+}
+.typical_headr{
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Playfair Display SC', serif;
+    padding-bottom: 2rem;
+}
+.typical_headr h2, .typical_wrp p{
+    color: var( --blue);
+}
+.typical_wrp{
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ gap: 3rem;
+ padding-bottom: 4rem;
+}
+.div_img{
+    width: 100%;
+}
+.div_img img{
+    width: 100%;
+}
+
+@media screen and (max-width: 576px){
+    .typical{
+        margin: 0 2rem;
+        margin-top: 5rem;
+    }
+    .typical_headr{
+        font-size: 1.5rem;
+    }
+    .typical_wrp{
+        flex-direction: column;
+       }
+    
+}

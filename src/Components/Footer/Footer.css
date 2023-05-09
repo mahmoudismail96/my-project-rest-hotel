@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC:wght@700&display=swap');
+footer{
+    padding: 2rem 10rem;
+    text-align: center;
+}
+.footre_headr h2{
+    color: var(--blue);
+    font-family: 'Playfair Display SC', serif;
+}
+.footre_text{
+    color: var(--blue);
+    padding: 1rem 0;
+}
+.footre_btn button{
+    border: none;
+    background-color: var(--yellow);
+    padding: 1.5rem 4rem;
+}
+.footre_last{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+}
+.footre_last h3{
+    font-family: 'Playfair Display SC', serif;
+    color: var(--blue);
+    border-bottom: solid 0.2rem var(--yellow);
+    font-size: 2rem;
+}
+.footre_last p{
+    color: var(--blue);
+}
+@media screen and (max-width: 999px){
+    footer{
+        padding: 2rem 5rem;
+    }
+    .footre_last{
+        flex-direction: column;
+    }
+    
+}
+@media screen and (max-width: 576px){
+    footer{
+        padding: 2rem 2rem;
+    }
+    
+    
+}
